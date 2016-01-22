@@ -1,0 +1,19 @@
+article
+{
+    border: 5px solid black;
+}
+
+.bold
+{
+    font-weight: 900;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.italic
+{
+    font-style: italic;
+}
