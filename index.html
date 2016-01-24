@@ -5,6 +5,7 @@
         <title>Test Feed Reader</title>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!-- jQuery -->
         <script type="text/javascript" src="feedreader.js"></script> <!-- Feed reader script -->
+        <link type="text/css" rel="stylesheet" href="feedreader.css" />
     </head>
     <body>
         <section id="input"> <!-- Input section -->
@@ -12,27 +13,40 @@
         </section>
         <section id="chaninf"> <!-- Holds information on the channel -->
             <table>
-                <tr> <!-- Row holding channel title -->
-                    <td> <!-- Channel title heading -->
-                        <th>
-                            Channel Title
-                        </th>
-                    </td>
+                <tr class="clearable"> <!-- Row holding channel title -->
+                    <th> <!-- Channel title heading -->
+                        Channel Title
+                    </th>
                     <td id="chantit"> <!-- Channel title content -->
                         Unknown
                     </td>
                 </tr>
-                <tr> <!-- Channel Description heading -->
-                    <td>
-                        <th>
-                            Channel Description
-                        </th>
-                    </td>
+                <tr class="clearable"> 
+                    <th> <!-- Channel Description heading -->
+                        Channel Description
+                    </th>
                     <td id="chandesc">
                         Unknown
                     </td>
                 </tr>
+                <tr class="clearable"> 
+                    <th> <!-- Language heading -->
+                        Channel Language
+                    </th>
+                    <td id="chanlang">
+                        Unknown
+                    </td>
+                </tr>
+                <tr class="clearable"> <!-- Channel image -->
+                    <th>
+                        Channel Image
+                    </th>
+                    <td id="chanImg">
+                    </td>
+                </tr>
             </table>
+        </section>
+        <section id="articles">
         </section>
     </body>
 </html>
